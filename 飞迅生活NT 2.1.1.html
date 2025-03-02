@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飞迅生活，轻松做自己</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .feature-section {
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 0;
+        }
+        p {
+            color: #777;
+        }
+        .download-section {
+            margin-top: 50px;
+        }
+        .platform-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 15px 30px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1aad19;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #169312;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>飞迅生活，轻松做自己</h1>
+
+        <div class="feature-section">
+            <h2>AI对话</h2>
+            <p>支持OpenAI旗下大模型对话。</p>
+        </div>
+
+        <div class="feature-section">
+            <h2>无法下载？看这！</h2>
+            <p>下载地址：https://pan.baidu.com/s/16MQyXoTbtxyua5QLAmjT3Q?channel=00000000000000000000000016000001&clienttype=8&from=win32_yunguanjia&pri_extra=&privilege=&pwd=1111&version=7.52.0.135&_at_=1740805372172</p>
+        </div>
+
+
+
+
+        <div class="download-section">
+            <h2>选择你的平台下载应用(最新版本2.1.1208)</h2>
+            <div class="platform-buttons">
+                <button id="windows-download">Windows下载</button>
+                <button id="android-download">Android下载</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 模拟下载功能，实际使用时需替换为真实下载链接
+        document.getElementById('windows-download').addEventListener('click', function() {
+            alert('https://pan.baidu.com/s/16MQyXoTbtxyua5QLAmjT3Q?channel=00000000000000000000000016000001&clienttype=8&from=win32_yunguanjia&pri_extra=&privilege=&pwd=1111&version=7.52.0.135&_at_=1740805059401');
+        });
+        document.getElementById('android-download').addEventListener('click', function() {
+            alert(https://pan.baidu.com/s/16MQyXoTbtxyua5QLAmjT3Q?channel=00000000000000000000000016000001&clienttype=8&from=win32_yunguanjia&pri_extra=&privilege=&pwd=1111&version=7.52.0.135&_at_=1740805059401'');
+        });
+    </script>
+    <p style="text-align: center;">Copyright ©Nanxun Technology  Co.Ltd. All rights reserved.</p>
+</body>
+</html>
